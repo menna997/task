@@ -83,7 +83,7 @@ body {
     right: 30px;
 }
 
-.intro-span {
+.intro-container {
     width: 856px;
     height: 100px;
     padding: 14px 30px 14px 20px;
@@ -97,14 +97,14 @@ body {
 
 }
 
-.span-unlock {
+.title-unlock {
     color: #FF9500;
     font-size: 48px;
     font-weight: 600;
     line-height: 72px;
 }
 
-.span-creative {
+.title-creative {
     color: #1A1A1A;
     font-size: 48px;
     font-weight: 600;
@@ -112,7 +112,7 @@ body {
 }
 
 
-.intro-text {
+.intro-heading {
     margin-top: 20px;
     text-align: center;
     color: #262626;
@@ -121,7 +121,7 @@ body {
     line-height: 57px;
 }
 
-.intro-paragraph {
+.intro-description {
     text-align: center;
     color: #262626;
     font-size: 18px;
@@ -221,7 +221,7 @@ body {
 
 }
 
-.courses-element {
+.OurCourses-Section {
     width: 48%;
     background: #fff;
     padding: 50px;
@@ -244,7 +244,7 @@ body {
     width: 100%;
 }
 
-.card-container .card-data {
+.card-container .courses-data {
     width: 100%;
     /* display: inline-block; */
     margin: 30px 0;
@@ -276,13 +276,13 @@ body {
     text-align: right;
 }
 
-.card-container .card-text {
+.card-container .container-text {
     margin-bottom: 53px;
     gap: 14px;
     display: grid;
 }
 
-.borderButton {
+.border-Button {
     padding: 18px 24px;
     background: #F7F7F8;
     border-radius: 8px;
@@ -294,7 +294,7 @@ body {
     justify-content: center;
 }
 
-.card-container .card-text .card-title {
+.card-container .container-text .courses-title {
     color: rgba(38, 38, 38, 1);
     font-size: 24px;
     font-weight: 600;
@@ -302,7 +302,7 @@ body {
     margin-bottom: 14px;
 }
 
-.card-container .card-text .details-text {
+.card-container .container-text .courses-description {
     color: rgba(76, 76, 77, 1);
     font-size: 18px;
     font-weight: 400;
@@ -383,14 +383,14 @@ body {
 
     }
 
-    .card-container .card-text .card-title {
+    .card-container .container-text .courses-title {
 
         font-size: 20px;
 
         line-height: 30px;
     }
 
-    .card-container .card-text .details-text {
+    .card-container .container-text .courses-description {
 
         font-size: 16px;
 
@@ -398,7 +398,7 @@ body {
 
     }
 
-    .borderButton {
+    .border-Button {
         padding: 14px 24px;
 
         gap: 8px;
@@ -450,7 +450,7 @@ body {
         line-height: 21px;
     }
 
-    .courses-element {
+    .OurCourses-Section {
         width: 100%;
     }
 
@@ -458,7 +458,7 @@ body {
         padding-top: 18%;
     }
 
-    .intro-span {
+    .intro-container {
         width: 682px;
         height: 100px;
         padding: 12px 24px 12px 12px;
@@ -467,21 +467,21 @@ body {
         margin: auto;
     }
 
-    .span-unlock, .span-creative {
+    .title-unlock, .title-creative {
 
         font-size: 36px;
 
         line-height: 54px;
     }
 
-    .details-text {
+    .courses-description {
 
         font-size: 28px;
 
         line-height: 42px;
     }
 
-    .intro-paragraph {
+    .intro-description {
 
 
         font-size: 16px;
@@ -511,11 +511,11 @@ body {
 }
 
 @media (min-width: 350px) and (max-width: 740px) {
-    .courses-element {
+    .OurCourses-Section {
         width: 100%;
     }
 
-    .intro-text {
+    .intro-heading {
 
         font-size: 16px;
 
@@ -527,7 +527,7 @@ body {
 
     }
 
-    .intro-span {
+    .intro-container {
         width: 364px;
         height: 54px;
         padding: 14px;
@@ -545,17 +545,17 @@ body {
         padding-top: 35%;
     }
 
-    .span-unlock, .span-creative {
+    .title-unlock, .title-creative {
         font-size: 16px;
         line-height: 24px;
     }
 
-    .details-text {
+    .courses-description {
         font-size: 24px;
         line-height: 35px;
     }
 
-    .intro-paragraph {
+    .intro-description {
         font-size: 14px;
         line-height: 21px;
     }
@@ -585,7 +585,7 @@ body {
 
     }
 
-    .card-container .card-data {
+    .card-container .courses-data {
         display: block;
     }
 }
@@ -605,26 +605,26 @@ body {
 
     }
 
-    .intro-span {
+    .intro-container {
         width: 309px;
     }
 
-    .details-text {
+    .courses-description {
         font-size: 18px;
         line-height: 30px;
     }
 
-    .card-container .card-text .card-title {
+    .card-container .container-text .courses-title {
         font-size: 16px;
         line-height: 10px;
     }
 
-    .card-container .card-text .details-text {
+    .card-container .container-text .courses-description {
         font-size: 14px;
         line-height: 18px;
     }
 
-    .courses-element {
+    .OurCourses-Section {
         width: 100%;
         background: #fff;
         padding: 15px;
@@ -634,14 +634,7 @@ body {
         padding: 12px 20px 12px 20px;
     }
 
-    /* .intro {
-        padding-top: 52%;
-    }
 
-    .span-unlock, .span-creative {
-        font-size: 17px;
-        line-height: 71px;
-    } */
 }
 
 @media screen and (max-width: 325px) {
@@ -664,7 +657,7 @@ body {
         padding-top: 43%;
     }
 
-    .intro-span {
+    .intro-container {
         width: 80%;
         height: 80px;
     }
@@ -675,27 +668,27 @@ body {
         left: 7px;
     }
 
-    .details-text {
+    .courses-description {
         font-size: 16px;
         line-height: 30px;
     }
 
-    .card-container .card-text .card-title {
+    .card-container .container-text .courses-title {
         font-size: 16px;
         line-height: 10px;
     }
 
-    .span-unlock, .span-creative {
+    .title-unlock, .title-creative {
         font-size: 14px;
         line-height: 57px;
     }
 
-    .card-container .card-text .details-text {
+    .card-container .container-text .courses-description {
         font-size: 14px;
         line-height: 18px;
     }
 
-    .courses-element {
+    .OurCourses-Section {
         width: 100%;
         background: #fff;
         padding: 15px;
@@ -704,12 +697,12 @@ body {
 
 @media screen and (max-width: 321px) {
 
-    .details-text {
+    .courses-description {
         font-size: 24px;
         line-height: 36px;
     }
 
-    .intro-paragraph {
+    .intro-description {
 
         font-size: 13px;
         line-height: 21px;
