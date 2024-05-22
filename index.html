@@ -4,21 +4,18 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
 
     <link rel="stylesheet" href="./assets/style/main.css" />
+    <link rel="stylesheet" href="./assets/style/main.scss">
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
     <link rel="shortcut icon" type="image/icon" href="./assets/image/Logo.svg" />
     <title>Online-Course-E-Learning</title>
 </head>
@@ -34,9 +31,8 @@
         <!-- navbar-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light navigation">
             <div class="container-fluid">
-                <a href=""><img src="./assets/image/Logo.svg" alt="Logo" /></a>
+                <a href><img src="./assets/image/logo.svg" alt="logo" /></a>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="navbar">
                             <a class="nav-link" aria-current="page" href="index.html">Home</a>
@@ -55,30 +51,25 @@
                             <a class="nav-link" aria-current="page" href="Contact.html">Contact</a>
                         </li>
                     </ul>
-
                 </div>
 
                 <div class="navBtn d-flex justify-content-end">
-
-                    <a class="nav-link coverSignin" aria-current="page" href="sigup.html">Sign in</a>
-                    <a class="nav-link coverLogin" aria-current="page" href="login.html">Login</a>
+                    <a class="nav-link sign-up" aria-current="page" href="sigup.html">Sign up</a>
+                    <a class="nav-link login-cover" aria-current="page" href="login.html">Login</a>
                 </div>
-                <button s class="navbar-toggler" type="button" card-data-bs-toggle="collapse"
-                    card-data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span><img src="./assets/image/navbar-toggler.svg" alt /></span>
-                </button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span><img src="./assets/image/navbar-toggler.svg" alt="navbar-toggle" /></span>
+        </button>
             </div>
         </nav>
     </header>
+    <!-- main-contention -->
     <div class="main-contention">
         <!-- intro  -->
         <section class="intro">
-
             <div class="row">
                 <div class="col">
-
-                    <img class="abstract" src="./assets/image/Abstract-Line.svg" alt="Abstract-Line">
+                    <img class="abstract" src="./assets/image/abstract-line.svg" alt="abstract-line" />
 
                     <div class="intro-container">
                         <span class="title-unlock">Unlock</span>
@@ -88,12 +79,11 @@
                         with Online Design and Development Courses.
                     </div>
                     <div class="intro-description">
-                        Learn from Industry Experts and Enhance Your
-                        Skills.
+                        Learn from Industry Experts and Enhance Your Skills.
                     </div>
                     <div class="intro-btn">
-                            <button class="explore-btn">Explore Courses</button>
-                            <button class="pricing-btn">View Pricing</button>
+                        <button class="explore-btn">Explore Courses</button>
+                        <button class="pricing-btn">View Pricing</button>
                     </div>
                 </div>
             </div>
@@ -101,50 +91,33 @@
         <!-- card-image -->
         <section class="courses-container">
             <div class="container">
-
                 <div class="section-courses">
                     <div class="courses-paragraph">
                         <h3>Our Courses</h3>
                         <div>
-                            Lorem ipsum dolor sit amet consectetur.
-                            Tempus tincidunt etiam eget elit id imperdiet
-                            et. Craseu sit dignissim lorem nibh et. Ac cum
-                            eget
-                            habitasse invelit fringilla feugiat senein.
+                            Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Craseu sit dignissim lorem nibh et. Ac cum eget habitasse invelit fringilla feugiat senein.
                         </div>
                     </div>
-                    <div class="view-btn">
-                        <button">View All</button>
-                    </div>
+
+                    <button class="view-btn">View All</button>
                 </div>
                 <div class="row">
                     <div class="col-12">
                         <div class="card-container">
+                            <div class="courses-section">
+                                <img class="card-image" src="./assets/image/web-design.svg " alt="web-design " />
 
-                            <div class="OurCourses-Section">
-                             
-                                    <img class="card-image" src="./assets/image/Web-Design.svg" alt="Web-Design">
-                              
                                 <div class="courses-data">
-                                    <div class="card-Btns">
-                                        <label class="period">4
-                                            Weeks</label>
+                                    <div class="info-label">
+                                        <label class="period">4 Weeks</label>
                                         <label class="type">Beginner</label>
-
                                     </div>
-                                    <span class="creator">By John
-                                        Smith</span>
-
+                                    <span class="creator">By John Smith</span>
                                 </div>
-                                <div class="container-text">
+                                <div class="courses-text">
                                     <div class="courses-title">Web Design Fundamentals</div>
-                                    <div class="courses-description">Learn the fundamentals
-                                        of web design, including HTML, CSS,
-                                        and
-                                        responsive design principles.
-                                        Develop the skills to create
-                                        visually appealing
-                                        and user-friendly websites.
+                                    <div class="courses-description">
+                                        Learn the fundamentals of web design, including HTML, CSS, and responsive design principles. Develop the skills to create visually appealing and user-friendly websites.
                                     </div>
                                 </div>
 
@@ -152,31 +125,20 @@
                                     <div class="get-btn">Get it Now</div>
                                 </div>
                             </div>
-                            <div class="OurCourses-Section">
-                           
-                                    <img class="card-image" src="./assets/image/UIUX-Design.svg" alt="UI/UX-Design">
-                           
+                            <div class="courses-section">
+                                <img class="card-image" src="./assets/image/uiux-design.svg " alt="ui/ux-Design " />
+
                                 <div class="courses-data">
-                                    <div class="card-Btns">
-                                        <label class="period">6
-                                            Weeks</label>
+                                    <div class="info-label">
+                                        <label class="period">6 Weeks</label>
                                         <label class="type">Intermediate</label>
-
                                     </div>
-                                    <span class="creator">By Emily
-                                        Johnson</span>
-
+                                    <span class="creator">By Emily Johnson</span>
                                 </div>
-                                <div class="container-text">
+                                <div class="courses-text">
                                     <div class="courses-title">UI/UX Design</div>
-                                    <div class="courses-description">Master the art of
-                                        creating intuitive user interfaces
-                                        (UI) and
-                                        enhancing user experiences (UX).
-                                        Learn design principles,
-                                        wireframing,
-                                        prototyping, and usability testing
-                                        techniques.
+                                    <div class="courses-description">
+                                        Master the art of creating intuitive user interfaces (UI) and enhancing user experiences (UX). Learn design principles, wireframing, prototyping, and usability testing techniques.
                                     </div>
                                 </div>
 
@@ -184,26 +146,19 @@
                                     <div class="get-btn">Get it Now</div>
                                 </div>
                             </div>
-                            <div class="OurCourses-Section">
-                            
-                                    <img class="card-image" src="./assets/image/Mobile-App.svg" alt="Mobile-App">
+                            <div class="courses-section">
+                                <img class="card-image" src="./assets/image/mobile-app.svg " alt="mobile-app " />
                                 <div class="courses-data">
-                                    <div class="card-Btns">
-                                        <label class="period">10
-                                            Weeks</label>
+                                    <div class="info-label">
+                                        <label class="period">10 Weeks</label>
                                         <label class="type">Beginner</label>
-
                                     </div>
                                     <span class="creator">By David Brown</span>
-
                                 </div>
-                                <div class="container-text">
+                                <div class="courses-text">
                                     <div class="courses-title">Mobile App Development</div>
-                                    <div class="courses-description">Dive into the world of
-                                        mobile app development. Learn to
-                                        build native iOS and Android applications
-                                        using industry-leading frameworks like Swift
-                                        and Kotlin.
+                                    <div class="courses-description">
+                                        Dive into the world of mobile app development. Learn to build native iOS and Android applications using industry-leading frameworks like Swift and Kotlin.
                                     </div>
                                 </div>
 
@@ -211,28 +166,21 @@
                                     <div class="get-btn">Get it Now</div>
                                 </div>
                             </div>
-                            <div class="OurCourses-Section">
-                             <img class="card-image" src="./assets/image/Graphic-Design.svg" alt="Graphic-Design">
+                            <div class="courses-section">
+                                <img class="card-image" src="./assets/image/graphic-design.svg" alt="graphic-design " />
                                 <div class="courses-data">
-                                    <div class="card-Btns">
+                                    <div class="info-label">
                                         <label class="period">10Weeks</label>
                                         <label class="type">Beginner</label>
-
                                     </div>
                                     <span class="creator">By Sarah Thompson</span>
-
                                 </div>
-                                <div class="container-text">
-                                    <div class="courses-title">Graphic Design for
-                                        Beginners</div>
-                                    <div class="courses-description">Discover the
-                                        fundamentals of graphic design,
-                                        including typography,
-                                        color theory, layout design, and
-                                        image manipulation techniques.
-                                        Create visually
-                                        stunning designs for print and
-                                        digital media.
+                                <div class="courses-text">
+                                    <div class="courses-title">
+                                        Graphic Design for Beginners
+                                    </div>
+                                    <div class="courses-description">
+                                        Discover the fundamentals of graphic design, including typography, color theory, layout design, and image manipulation techniques. Create visually stunning designs for print and digital media.
                                     </div>
                                 </div>
 
@@ -240,27 +188,19 @@
                                     <div class="get-btn">Get it Now</div>
                                 </div>
                             </div>
-                            <div class="OurCourses-Section">
-                                <img class="card-image" src="./assets/image/Front-End.svg" alt="Front-End">
+                            <div class="courses-section">
+                                <img class="card-image" src="./assets/image/front-end.svg " alt="front-end " />
                                 <div class="courses-data">
-                                    <div class="card-Btns">
-                                        <label class="period">10
-                                            Weeks</label>
+                                    <div class="info-label">
+                                        <label class="period">10 Weeks</label>
                                         <label class="type">Intermediate</label>
-
                                     </div>
                                     <span class="creator">By Michael Adams</span>
-
                                 </div>
-                                <div class="container-text">
+                                <div class="courses-text">
                                     <div class="courses-title">Front-End Web Development</div>
                                     <div class="courses-description">
-                                        Become proficient in front-end web
-                                        development. Learn HTML, CSS,
-                                        JavaScript, and popular frameworks
-                                        like Bootstrap and React. Build
-                                        interactive
-                                        and responsive websites.
+                                        Become proficient in front-end web development. Learn HTML, CSS, JavaScript, and popular frameworks like Bootstrap and React. Build interactive and responsive websites.
                                     </div>
                                 </div>
 
@@ -268,31 +208,19 @@
                                     <div class="get-btn">Get it Now</div>
                                 </div>
                             </div>
-                            <div class="OurCourses-Section">
-                                <img class="card-image" src="./assets/image/Advanced-JavaScript.svg"
-                                        alt="Advanced-JavaScript">
+                            <div class="courses-section">
+                                <img class="card-image" src="./assets/image/advanced-javaScript.svg " alt="advanced-javaScript " />
                                 <div class="courses-data">
-                                    <div class="card-Btns">
-                                        <label class="period">6
-                                            Weeks</label>
+                                    <div class="info-label">
+                                        <label class="period">6 Weeks</label>
                                         <label class="type">Advance</label>
-
                                     </div>
-                                    <span class="creator">By Jennifer
-                                        Wilson</span>
-
+                                    <span class="creator">By Jennifer Wilson</span>
                                 </div>
-                                <div class="container-text">
-                                    <div class="courses-title">Advanced
-                                        JavaScript</div>
-                                    <div class="courses-description">Take your JavaScript
-                                        skills to the next level. Explore
-                                        advanced
-                                        concepts like closures, prototypes,
-                                        asynchronous programming, and ES6
-                                        features.
-                                        Build complex applications with
-                                        confidence.
+                                <div class="courses-text">
+                                    <div class="courses-title">Advanced JavaScript</div>
+                                    <div class="courses-description">
+                                        Take your JavaScript skills to the next level. Explore advanced concepts like closures, prototypes, asynchronous programming, and ES6 features. Build complex applications with confidence.
                                     </div>
                                 </div>
 
@@ -300,7 +228,6 @@
                                     <div class="get-btn">Get it Now</div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -310,19 +237,17 @@
     <!-- footer -->
     <footer class="footer">
         <div class="footer-content">
-            <img src="./assets/image/Logo.svg" alt>
+            <img src="./assets/image/logo.svg " alt="logo " />
             <ul class="list-unstyled">
-                <li><i class="bi bi-envelope"></i>
-                    hello@skillbridge.com</li>
+                <li><i class="bi bi-envelope"></i> hello@skillbridge.com</li>
                 <li><i class="bi bi-telephone-fill"></i> 91813 23 2309</li>
-                <li><i class="bi bi-geo-alt-fill"></i> Somewhere in the
-                    World</li>
+                <li><i class="bi bi-geo-alt-fill"></i> Somewhere in the World</li>
             </ul>
         </div>
         <div class="footer-content">
             <h4>Home</h4>
             <ul class="list-unstyled">
-                <li> <a href>Benefits</a></li>
+                <li><a href>Benefits</a></li>
                 <li><a href>Our Courses</a></li>
                 <li><a href>Our Testimonials</a></li>
                 <li><a href>Our FAQ</a></li>
@@ -340,13 +265,13 @@
             <h4>Follow Us</h4>
             <div class="icons">
                 <ul class="list-unstyled">
+                    <li>
+                        <a href="# " class="icoFacebook" title="Facebook "><i class="fa fa-facebook"></i></a>
 
-                    <a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="# " class="icoLinkedin" title="Linkedin "><i class="fa fa-linkedin"></i></a>
 
-                    <a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a>
-
-                    <a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a>
-
+                        <a href="# " class="icoTwitter" title="Twitter "><i class="fa fa-twitter"></i></a>
+                    </li>
                 </ul>
             </div>
         </div>

@@ -1,0 +1,577 @@
+$font_family: "Be Vietnam Pro",
+sans-serif;
+$bg_color: rgba(241, 241, 243, 1);
+$bg_color_text: #ff9500;
+$primary_color_text: White;
+$primary_color_paragraph: black;
+$primary_text:#4c4c4d;
+$font_size_48: 48px;
+$font_size_38: 38px;
+$font_size_24: 24px;
+$font_size_18: 18px;
+$font_weight_600: 600;
+$font_weight_500: 500;
+$font_weight_400: 400;
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-family;
+    background-color: $bg_color;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    background-color: $bg_color;
+    z-index: 1;
+    .sub {
+        margin-top: 20px;
+        padding: 14px 0 14px 0;
+        background: #ff9500;
+        border-radius: 8px;
+        text-align: center;
+        color: $primary_color_text;
+        font-size: $font_size_18;
+        font-weight: $font_weight_400;
+        line-height: 27px;
+        grid-area: sub;
+    }
+    img {
+        padding-left: 15px;
+    }
+    .sign-up,
+    .login-cover {
+        padding: 14px 34px 8px 34px;
+        background: transparent;
+        border-radius: 8px;
+        display: block;
+        gap: 8px;
+    }
+    .login-cover {
+        background: #ff9500;
+    }
+}
+
+.intro {
+    padding-top: 10%;
+    display: grid;
+    justify-content: center;
+    align-content: stretch;
+    .abstract {
+        position: relative;
+        top: 10px;
+        right: 30px;
+    }
+    .intro-container {
+        width: 856px;
+        height: 100px;
+        padding: 14px 30px 14px 20px;
+        background: $primary_color_text;
+        border-radius: 11px;
+        border: 1px #f1f1f3 solid;
+        text-align: center;
+    }
+    .title-unlock,
+    .title-creative {
+        color: $bg_color_text;
+        font-size: $font_size_48;
+        font-weight: $font_weight_600;
+        line-height: 72px;
+    }
+    .title-creative {
+        color: $primary_color_paragraph;
+    }
+    .intro-heading {
+        margin-top: 20px;
+        text-align: center;
+        color: $primary_color_paragraph;
+        font-size: $font_size_38;
+        font-weight: $font_weight_500;
+        line-height: 57px;
+    }
+    .intro-description {
+        text-align: center;
+        color: $primary_color_paragraph;
+        font-size: $font_size_18;
+        font-weight: $font_weight_400;
+        line-height: 27px;
+        margin-top: 10px;
+    }
+    .intro-btn {
+        display: flex;
+        margin: auto;
+        margin-top: 30px;
+        justify-content: center;
+    }
+    .explore-btn,
+    .pricing-btn {
+        background-color: $bg_color_text;
+        border: none;
+        color: $primary_color_text;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        padding: 18px 24px 18px 24px;
+        border-radius: 8px;
+    }
+    .pricing-btn {
+        background-color: $primary_color_text;
+        color: $primary_color_paragraph;
+        margin-left: 10px;
+    }
+}
+
+.section-courses {
+    align-items: flex-end;
+    gap: 75px;
+    display: inline-flex;
+    .courses-paragraph {
+        flex: 1 1 0;
+        flex-direction: column;
+        margin-top: 50px;
+        gap: 6px;
+        display: inline-flex;
+        h3 {
+            color: $primary_color_paragraph;
+            font-size: $font_size_48;
+            font-weight: $font_weight_600;
+            line-height: 72px;
+        }
+        div {
+            color: $primary_text;
+            font-size: $font_size_18;
+            font-weight: $font_weight_400;
+            line-height: 27px;
+        }
+    }
+    .view-btn {
+        padding: 18px 24px;
+        background: $primary_color_text;
+        border-radius: 8px;
+        border: 1px #f1f1f3 solid;
+        font-size: $font_size_18;
+        font-weight: $font_weight_500;
+        line-height: 27px;
+    }
+}
+
+.rubber-container {
+    margin-top: 50px;
+}
+
+.courses-section {
+    width: 48%;
+    background: $primary_color_text;
+    padding: 50px;
+    margin: 0.5rem;
+    border-radius: 12px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    display: inline-flex;
+    .border-Button {
+        padding: 18px 24px;
+        background: #f7f7f8;
+        border-radius: 8px;
+        border: 1px #f1f1f3 solid;
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
+    .get-btn {
+        text-align: center;
+        color: #262626;
+        font-size: $font_size_18;
+        font-weight: $font_weight_500;
+        line-height: 27px;
+        word-wrap: break-word;
+    }
+}
+
+.card-image {
+    align-self: stretch;
+    border-radius: 8px;
+    width: 100%;
+    img {
+        width: 100%;
+    }
+}
+
+.rubber-container {
+    .courses-data {
+        width: 100%;
+        margin: 30px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-self: stretch;
+    }
+    .info-label {
+        color: $primary_text;
+        font-size: 14px;
+        font-weight: $font_weight_400;
+        word-wrap: break-word;
+        display: inline-block;
+        .period,
+        .type {
+            padding: 10px 6px;
+            background: $primary_color_text;
+            border: 1px solid #f1f1f1;
+            border-radius: 8px;
+            margin-right: 10px;
+        }
+    }
+    .creator {
+        text-align: right;
+    }
+    .courses-text {
+        margin-bottom: 53px;
+        gap: 14px;
+        display: grid;
+    }
+}
+
+.rubber-container .courses-text {
+    .courses-title {
+        color: $primary_color_paragraph;
+        font-size: $font_size_24;
+        font-weight: $font_weight_400;
+        line-height: 150%;
+        margin-bottom: 14px;
+    }
+    .courses-description {
+        color: $primary_text;
+        font-size: $font_size_18;
+        font-weight: $font_weight_400;
+        line-height: 150%;
+        text-align: left;
+        max-height: 84px;
+    }
+}
+
+//
+.footer {
+    padding: 80px 13% 70px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 3.5rem;
+    margin-top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    .footer-content {
+        h4 {
+            color: #000;
+            margin-bottom: 1.5rem;
+            font-size: 24px;
+        }
+        li {
+            margin-bottom: 16px;
+            a {
+                display: block;
+                color: #000000;
+                font-size: 14px;
+                font-weight: 400px;
+                transition: all 0.4s ease;
+            }
+        }
+        .icons a {
+            display: inline-block;
+            font-size: 22px;
+            color: #000;
+            margin-right: 17px;
+            list-style: none;
+            transition: all 0.4s ease;
+        }
+    }
+}
+
+//media
+@media screen and (max-width: 1060px) {
+    .header .navigation {
+        padding: 10px 0 10px 0px;
+    }
+    .intro {
+        padding-top: 18%;
+    }
+    .rubber-container {
+        .info-label {
+            font-size: 14px;
+            line-height: 17.71px;
+        }
+        .courses-text {
+            .courses-title {
+                font-size: 20px;
+                line-height: 30px;
+            }
+            .courses-description {
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+    }
+    .border-Button {
+        padding: 14px 24px;
+        gap: 8px;
+    }
+    footer {
+        padding: 50px 2% 40px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .header {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .abstract {
+        top: 18px;
+        right: 0;
+        left: 20px;
+    }
+    .section-courses {
+        display: block;
+    }
+    .courses-paragraph {
+        div {
+            font-size: 15px;
+            line-height: 41px;
+        }
+        h3 {
+            font-size: 38px;
+            line-height: 57px;
+        }
+    }
+    .view-btn {
+        padding: 14px 20px;
+        font-size: 14px;
+        text-align: center;
+        line-height: 21px;
+    }
+    .courses-section {
+        width: 100%;
+    }
+    .intro {
+        padding-top: 18%;
+    }
+    .intro-container {
+        width: 682px;
+        height: 100px;
+        padding: 12px 24px 12px 12px;
+        margin: auto;
+    }
+    .title-unlock,
+    .title-creative {
+        font-size: 36px;
+        line-height: 54px;
+    }
+    .courses-description {
+        font-size: 28px;
+        line-height: 42px;
+    }
+    .intro-description {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .explore,
+    .view {
+        /* padding: 14px 20px; */
+        margin-right: 0px;
+    }
+    .explore-btn,
+    .pricing-btn {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+        gap: 2rem;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 740px) {
+    .courses-section {
+        width: 100%;
+    }
+    .intro-heading,
+    .sub {
+        font-size: 16px;
+    }
+    .intro-container {
+        width: 364px;
+        height: 54px;
+        padding: 14px;
+        background: #ffffff;
+        margin: auto;
+    }
+    .abstract {
+        right: 0;
+        left: 6px;
+    }
+    .intro {
+        padding-top: 35%;
+    }
+    .title-unlock,
+    .title-creative {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .courses-description {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .intro-description {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .section-courses {
+        display: block;
+    }
+    .courses-paragraph h3 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .view-btn {
+        padding: 14px 27px;
+        text-align: center;
+        margin-top: 16px;
+    }
+    .rubber-container {
+        .info-label,
+        .courses-data {
+            display: block;
+        }
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .sub {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+    .header .navigation {
+        padding: 14px 0 14px 0;
+    }
+    .intro-container {
+        width: 309px;
+    }
+    .courses-description {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .rubber-container .courses-text {
+        .courses-title {
+            font-size: 16px;
+            line-height: 10px;
+        }
+        .courses-description {
+            font-size: 14px;
+            line-height: 18px;
+        }
+    }
+    .courses-section {
+        width: 100%;
+        background: #fff;
+        padding: 15px;
+    }
+    .login-cover,
+    .sign-up {
+        padding: 12px 20px 12px 20px;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .sub {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+    .header .navigation {
+        padding: 10px 0 10px 0px;
+    }
+    .intro {
+        padding-top: 43%;
+    }
+    .intro-container {
+        width: 80%;
+        height: 80px;
+    }
+    .abstract {
+        right: 0px;
+        left: 7px;
+    }
+    .courses-description {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .rubber-container .courses-text .courses-title {
+        font-size: 16px;
+        line-height: 10px;
+    }
+    .title-unlock,
+    .title-creative {
+        font-size: 14px;
+        line-height: 57px;
+    }
+    .rubber-container .courses-text .courses-description {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .courses-section {
+        width: 100%;
+        background: #fff;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .courses-description {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .intro-description {
+        font-size: 13px;
+        line-height: 21px;
+    }
+    .explore,
+    .view {
+        /* padding: 11px 15px; */
+        margin-right: 0px;
+    }
+    .courses-paragraph h3 {
+        font-size: 27px;
+        line-height: 42px;
+    }
+    .section-courses {
+        display: block;
+    }
+    .view-btn {
+        padding: 14px 27px;
+        text-align: center;
+        margin-top: 16px;
+    }
+    .courses-paragraph div {
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .rubber-container {
+        .creator {
+            text-align: right;
+            font-size: 12px;
+        }
+        .info-label {
+            font-size: 10px;
+            line-height: 17.71px;
+        }
+    }
+    .login-cover,
+    .sign-up {
+        padding: 12px 20px 12px 20px;
+    }
+}
